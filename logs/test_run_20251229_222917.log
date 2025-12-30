@@ -1,0 +1,37 @@
+2025-12-29 22:29:17,332 [INFO] Starting Test Session . . .
+2025-12-29 22:29:17,333 [INFO] Environment 'placeholder' does not require auth. Proceeding as Guest
+2025-12-29 22:29:17,334 [INFO] REQUEST: POST https://jsonplaceholder.typicode.com/users
+2025-12-29 22:29:17,335 [INFO] Payload: [{"name": "Anthony Joshua", "username": "paulgordon", "email": "lisawise@example.com", "address": {"street": "0357 Paula Springs Apt. 664", "suite": "Suite 323", "city": "West Margaretview", "zipcode": "67552", "geo": {"lat": 40.741895, "lng": 40.741895}}, "phone": "234 5678901", "website": "https://www.anderson.com/", "company": {"name": "Company Testa", "catchPhrase": "We Build Dream", "bs": "harness real-time e-markets"}}]
+2025-12-29 22:29:18,141 [INFO] RESPONSE: 201 (0.797861s)
+2025-12-29 22:29:18,142 [INFO] Body: {
+  "0": {
+    "name": "Anthony Joshua",
+    "username": "paulgordon",
+    "email": "lisawise@example.com",
+    "address": {
+      "street": "0357 Paula Springs Apt. 664",
+      "suite": "Suite 323",
+      "city": "West Margaretview",
+      "zipcode": "67552",
+      "geo": {
+        "lat": 40.741895,
+        "lng": 40.741895
+      }
+    },
+    "phone": "234 5678901",
+    "website": "https://www.anderson.com/",
+    "company": {
+      "name": "Company Testa",
+      "catchPhrase": "We Build Dream",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "id": 11
+}
+2025-12-29 22:29:18,142 [INFO] REQUEST: GET https://jsonplaceholder.typicode.com/users/11
+2025-12-29 22:29:18,210 [INFO] RESPONSE: 404 (0.065669s)
+2025-12-29 22:29:18,210 [INFO] Body: {}
+2025-12-29 22:29:18,290 [INFO] REQUEST: GET https://jsonplaceholder.typicode.com/users/11
+2025-12-29 22:29:18,308 [INFO] RESPONSE: 404 (0.015539s)
+2025-12-29 22:29:18,308 [INFO] Body: {}
+2025-12-29 22:29:18,311 [INFO] Test Session Completed.

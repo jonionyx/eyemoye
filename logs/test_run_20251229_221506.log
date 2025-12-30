@@ -1,0 +1,4 @@
+2025-12-29 22:15:06,593 [INFO] Starting Test Session . . .
+2025-12-29 22:15:06,594 [INFO] Environment 'placeholder' does not require auth. Proceeding as Guest
+2025-12-29 22:15:06,595 [INFO] REQUEST: POST https://jsonplaceholder.typicode.com/users
+2025-12-29 22:15:06,683 [INFO] Test Session Completed.

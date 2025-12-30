@@ -1,0 +1,31 @@
+2025-12-29 22:03:55,381 [INFO] Starting Test Session . . .
+2025-12-29 22:03:55,382 [INFO] Environment 'placeholder' does not require auth. Proceeding as Guest
+2025-12-29 22:03:55,384 [INFO] REQUEST: POST https://jsonplaceholder.typicode.com/users
+2025-12-29 22:03:55,384 [INFO] Payload: [{"name": "Test Name", "username": "clang", "email": "aorozco@example.com", "address": {"street": "5157 Mark Dale Suite 997", "suite": "Suite 323", "city": "Ronaldview", "zipcode": "42585", "geo": {"lat": 40.741895, "lng": 40.741895}}, "phone": "234 5678901", "website": "https://www.moreno.com/", "company": {"name": "Company Testa", "catchPhrase": "We Build Dream", "bs": "harness real-time e-markets"}}]
+2025-12-29 22:03:55,868 [INFO] RESPONSE: 201 (0.404708s)
+2025-12-29 22:03:55,869 [INFO] Body: {
+  "0": {
+    "name": "Test Name",
+    "username": "clang",
+    "email": "aorozco@example.com",
+    "address": {
+      "street": "5157 Mark Dale Suite 997",
+      "suite": "Suite 323",
+      "city": "Ronaldview",
+      "zipcode": "42585",
+      "geo": {
+        "lat": 40.741895,
+        "lng": 40.741895
+      }
+    },
+    "phone": "234 5678901",
+    "website": "https://www.moreno.com/",
+    "company": {
+      "name": "Company Testa",
+      "catchPhrase": "We Build Dream",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "id": 11
+}
+2025-12-29 22:03:55,951 [INFO] Test Session Completed.

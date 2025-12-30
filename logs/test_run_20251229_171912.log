@@ -1,0 +1,15 @@
+2025-12-29 17:19:12,470 [INFO] Starting Test Session . . .
+2025-12-29 17:19:12,471 [INFO] Environment 'placeholder' does not require auth. Proceeding as Guest
+2025-12-29 17:19:12,471 [INFO] REQUEST: POST https://jsonplaceholder.typicode.com/posts
+2025-12-29 17:19:12,472 [INFO] Payload: {"title": "Transformer Framework", "body": "CRUD Testing", "userId": 1}
+2025-12-29 17:19:12,895 [INFO] RESPONSE: 201 (0.383025s)
+2025-12-29 17:19:12,895 [INFO] Body: {
+  "title": "Transformer Framework",
+  "body": "CRUD Testing",
+  "userId": 1,
+  "id": 101
+}
+2025-12-29 17:19:12,895 [INFO] REQUEST: GET https://jsonplaceholder.typicode.com/posts/101
+2025-12-29 17:19:13,253 [INFO] RESPONSE: 404 (0.35515s)
+2025-12-29 17:19:13,253 [INFO] Body: {}
+2025-12-29 17:19:13,332 [INFO] Test Session Completed.

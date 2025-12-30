@@ -1,0 +1,6 @@
+2025-12-30 14:12:47,407 [INFO] Starting Test Session . . .
+2025-12-30 14:12:47,408 [INFO]  Environment 'booker' requires auth. Attempting login  . . . 
+2025-12-30 14:12:47,859 [INFO] REQUEST: GET https://restful-booker.herokuapp.com/https://reqres.in/api/users?delay=5
+2025-12-30 14:12:47,960 [INFO] RESPONSE: 404 (0.098544s)
+2025-12-30 14:12:47,960 [INFO] Body: Not Found
+2025-12-30 14:12:48,042 [INFO] Test Session Completed.

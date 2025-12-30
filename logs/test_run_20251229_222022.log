@@ -1,0 +1,34 @@
+2025-12-29 22:20:22,451 [INFO] Starting Test Session . . .
+2025-12-29 22:20:22,452 [INFO] Environment 'placeholder' does not require auth. Proceeding as Guest
+2025-12-29 22:20:22,454 [INFO] REQUEST: POST https://jsonplaceholder.typicode.com/users
+2025-12-29 22:20:22,454 [INFO] Payload: [{"name": "Anthony Joshua", "username": "wilsonmartin", "email": "colincarroll@example.net", "address": {"street": "459 Swanson Dam Apt. 081", "suite": "Suite 323", "city": "Adkinsfort", "zipcode": "00518", "geo": {"lat": 40.741895, "lng": 40.741895}}, "phone": "234 5678901", "website": "http://watson.org/", "company": {"name": "Company Testa", "catchPhrase": "We Build Dream", "bs": "harness real-time e-markets"}}]
+2025-12-29 22:20:22,757 [INFO] RESPONSE: 201 (0.247077s)
+2025-12-29 22:20:22,758 [INFO] Body: {
+  "0": {
+    "name": "Anthony Joshua",
+    "username": "wilsonmartin",
+    "email": "colincarroll@example.net",
+    "address": {
+      "street": "459 Swanson Dam Apt. 081",
+      "suite": "Suite 323",
+      "city": "Adkinsfort",
+      "zipcode": "00518",
+      "geo": {
+        "lat": 40.741895,
+        "lng": 40.741895
+      }
+    },
+    "phone": "234 5678901",
+    "website": "http://watson.org/",
+    "company": {
+      "name": "Company Testa",
+      "catchPhrase": "We Build Dream",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "id": 11
+}
+2025-12-29 22:20:22,758 [INFO] REQUEST: GET https://jsonplaceholder.typicode.com/users/11
+2025-12-29 22:20:23,073 [INFO] RESPONSE: 404 (0.313313s)
+2025-12-29 22:20:23,073 [INFO] Body: {}
+2025-12-29 22:20:23,143 [INFO] Test Session Completed.

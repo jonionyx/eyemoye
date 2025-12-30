@@ -1,0 +1,56 @@
+2025-12-29 22:31:53,853 [INFO] Starting Test Session . . .
+2025-12-29 22:31:53,853 [INFO] Environment 'placeholder' does not require auth. Proceeding as Guest
+2025-12-29 22:31:53,855 [INFO] REQUEST: POST https://jsonplaceholder.typicode.com/users
+2025-12-29 22:31:53,855 [INFO] Payload: [{"name": "Anthony Joshua", "username": "angelpeters", "email": "donaldbenson@example.org", "address": {"street": "6696 Howard Loop", "suite": "Suite 323", "city": "Johnsonville", "zipcode": "38623", "geo": {"lat": 40.741895, "lng": 40.741895}}, "phone": "234 5678901", "website": "https://www.conley.com/", "company": {"name": "Company Testa", "catchPhrase": "We Build Dream", "bs": "harness real-time e-markets"}}]
+2025-12-29 22:31:54,169 [INFO] RESPONSE: 201 (0.304294s)
+2025-12-29 22:31:54,170 [INFO] Body: {
+  "0": {
+    "name": "Anthony Joshua",
+    "username": "angelpeters",
+    "email": "donaldbenson@example.org",
+    "address": {
+      "street": "6696 Howard Loop",
+      "suite": "Suite 323",
+      "city": "Johnsonville",
+      "zipcode": "38623",
+      "geo": {
+        "lat": 40.741895,
+        "lng": 40.741895
+      }
+    },
+    "phone": "234 5678901",
+    "website": "https://www.conley.com/",
+    "company": {
+      "name": "Company Testa",
+      "catchPhrase": "We Build Dream",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "id": 11
+}
+2025-12-29 22:31:54,171 [INFO] REQUEST: GET https://jsonplaceholder.typicode.com/users/10
+2025-12-29 22:31:54,185 [INFO] RESPONSE: 200 (0.012144s)
+2025-12-29 22:31:54,185 [INFO] Body: {
+  "id": 10,
+  "name": "Clementina DuBuque",
+  "username": "Moriah.Stanton",
+  "email": "Rey.Padberg@karina.biz",
+  "address": {
+    "street": "Kattie Turnpike",
+    "suite": "Suite 198",
+    "city": "Lebsackbury",
+    "zipcode": "31428-2261",
+    "geo": {
+      "lat": "-38.2386",
+      "lng": "57.2232"
+    }
+  },
+  "phone": "024-648-3804",
+  "website": "ambrose.net",
+  "company": {
+    "name": "Hoeger LLC",
+    "catchPhrase": "Centralized empowering task-force",
+    "bs": "target end-to-end models"
+  }
+}
+2025-12-29 22:31:54,255 [INFO] Test Session Completed.

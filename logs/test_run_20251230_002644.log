@@ -1,0 +1,20 @@
+2025-12-30 00:26:44,980 [INFO] Starting Test Session . . .
+2025-12-30 00:26:44,981 [INFO]  Environment 'booker' requires auth. Attempting login  . . . 
+2025-12-30 00:26:45,481 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/booking
+2025-12-30 00:26:45,482 [INFO] Payload: {"firstname": "Jim", "lastname": "Brown", "totalprice": 111, "depositpaid": true, "bookingdates": {"checkin": "2018-01-01", "checkout": "2019-01-01"}, "additionalneeds": "Breakfast"}
+2025-12-30 00:26:45,584 [INFO] RESPONSE: 200 (0.099975s)
+2025-12-30 00:26:45,584 [INFO] Body: {
+  "bookingid": 3197,
+  "booking": {
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+2025-12-30 00:26:45,691 [INFO] Test Session Completed.

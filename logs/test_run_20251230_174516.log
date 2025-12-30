@@ -1,0 +1,163 @@
+2025-12-30 17:45:16,748 [INFO] Starting Test Session . . .
+2025-12-30 17:45:16,748 [INFO]  Environment 'eb360' requires auth. Attempting login  . . . 
+2025-12-30 17:45:18,262 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:18,262 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:18,770 [INFO] RESPONSE: 401 (0.505651s)
+2025-12-30 17:45:18,770 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:18,770 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:18,771 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:19,206 [INFO] RESPONSE: 401 (0.433681s)
+2025-12-30 17:45:19,207 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:19,207 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:19,207 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:19,605 [INFO] RESPONSE: 401 (0.395627s)
+2025-12-30 17:45:19,605 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:19,605 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:19,606 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:20,034 [INFO] RESPONSE: 401 (0.42628s)
+2025-12-30 17:45:20,034 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:20,035 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:20,035 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:20,513 [INFO] RESPONSE: 401 (0.47644s)
+2025-12-30 17:45:20,514 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:20,514 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:20,514 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:20,927 [INFO] RESPONSE: 401 (0.410385s)
+2025-12-30 17:45:20,927 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:20,927 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:20,927 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:21,359 [INFO] RESPONSE: 401 (0.429583s)
+2025-12-30 17:45:21,359 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:21,359 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:21,359 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:21,895 [INFO] RESPONSE: 401 (0.533211s)
+2025-12-30 17:45:21,895 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:21,895 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:21,895 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:22,457 [INFO] RESPONSE: 401 (0.559329s)
+2025-12-30 17:45:22,457 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:22,457 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:22,458 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:23,367 [INFO] RESPONSE: 401 (0.906895s)
+2025-12-30 17:45:23,367 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:23,367 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:23,367 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:23,841 [INFO] RESPONSE: 401 (0.470942s)
+2025-12-30 17:45:23,841 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:23,841 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:23,842 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:24,407 [INFO] RESPONSE: 401 (0.563299s)
+2025-12-30 17:45:24,407 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:24,407 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:24,408 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:24,915 [INFO] RESPONSE: 401 (0.505529s)
+2025-12-30 17:45:24,916 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:24,916 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:24,916 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:25,387 [INFO] RESPONSE: 401 (0.468693s)
+2025-12-30 17:45:25,387 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:25,387 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:25,388 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:25,851 [INFO] RESPONSE: 401 (0.46085s)
+2025-12-30 17:45:25,851 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:25,851 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:25,851 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:26,350 [INFO] RESPONSE: 401 (0.496871s)
+2025-12-30 17:45:26,351 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:26,351 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:26,351 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:26,859 [INFO] RESPONSE: 401 (0.506053s)
+2025-12-30 17:45:26,860 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:26,860 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:26,860 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:27,323 [INFO] RESPONSE: 401 (0.460573s)
+2025-12-30 17:45:27,323 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:27,323 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:27,323 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:27,835 [INFO] RESPONSE: 401 (0.509089s)
+2025-12-30 17:45:27,835 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:27,835 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/authenticate/eb360
+2025-12-30 17:45:27,835 [INFO] Payload: {"username": "gjindal", "password": "Password1!"}
+2025-12-30 17:45:28,422 [INFO] RESPONSE: 401 (0.584751s)
+2025-12-30 17:45:28,423 [INFO] Body: {
+  "success": 0,
+  "lockTime": null,
+  "loginType": 0
+}
+2025-12-30 17:45:28,491 [INFO] Test Session Completed.

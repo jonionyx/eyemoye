@@ -1,0 +1,39 @@
+import requests
+import logging
+
+class BaseClient:
+    def __init__(self, base_url, token=None, timeout=10, max_latency=0.5):
+        self.base_url = base_url
+        self.timeout = timeout
+        self.session = requests.Session()
+        if token:
+            self.session.headers.update({"Authorization": f"Bearer {token}"})
+
+    def _request(self, method, endpoint, **kwargs):
+           # Centralised loggins goes here
+           url = f"{self.base_url}{endpoint}"
+           kwargs.setdefault('timeout', self.timeout)
+           response = self.session.request(method, url, **kwargs)
+
+        # Performance SLA Check
+        # response.elapsed.total_seconds() returns the time between 
+        # sending the request and receiving the headers
+
+           latency =  response.elapsed.total_seconds()
+           
+
+           if latency > self.max_latency:
+                # Use a non-blocking warning or a soft assertion here
+                print(f"SLA Warning: {method} {endpoint} took {latency: .2f}s (Limit: {self.max_latency}s)")
+           return response
+                
+                
+                
+
+
+    def get(self, endpoint, **kwargs):
+        return self._request("GET", endpoint, **kwargs)
+    
+    def post(self, endpoint, data=None, json=None, **kwargs):
+        return self._request("POST", endpoint, data=data, json=json, **kwargs)
+        

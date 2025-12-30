@@ -1,0 +1,37 @@
+2025-12-29 22:29:56,776 [INFO] Starting Test Session . . .
+2025-12-29 22:29:56,776 [INFO] Environment 'placeholder' does not require auth. Proceeding as Guest
+2025-12-29 22:29:56,778 [INFO] REQUEST: POST https://jsonplaceholder.typicode.com/users
+2025-12-29 22:29:56,778 [INFO] Payload: [{"name": "Anthony Joshua", "username": "davidmiller", "email": "nmartinez@example.net", "address": {"street": "1684 Hunt Plains Suite 032", "suite": "Suite 323", "city": "West Micheletown", "zipcode": "50436", "geo": {"lat": 40.741895, "lng": 40.741895}}, "phone": "234 5678901", "website": "https://www.adams.com/", "company": {"name": "Company Testa", "catchPhrase": "We Build Dream", "bs": "harness real-time e-markets"}}]
+2025-12-29 22:29:56,985 [INFO] RESPONSE: 201 (0.190903s)
+2025-12-29 22:29:56,985 [INFO] Body: {
+  "0": {
+    "name": "Anthony Joshua",
+    "username": "davidmiller",
+    "email": "nmartinez@example.net",
+    "address": {
+      "street": "1684 Hunt Plains Suite 032",
+      "suite": "Suite 323",
+      "city": "West Micheletown",
+      "zipcode": "50436",
+      "geo": {
+        "lat": 40.741895,
+        "lng": 40.741895
+      }
+    },
+    "phone": "234 5678901",
+    "website": "https://www.adams.com/",
+    "company": {
+      "name": "Company Testa",
+      "catchPhrase": "We Build Dream",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "id": 11
+}
+2025-12-29 22:29:56,986 [INFO] REQUEST: GET https://jsonplaceholder.typicode.com/users/11
+2025-12-29 22:29:57,006 [INFO] RESPONSE: 404 (0.017968s)
+2025-12-29 22:29:57,006 [INFO] Body: {}
+2025-12-29 22:29:57,080 [INFO] REQUEST: GET https://jsonplaceholder.typicode.com/users/11
+2025-12-29 22:29:57,096 [INFO] RESPONSE: 404 (0.015029s)
+2025-12-29 22:29:57,096 [INFO] Body: {}
+2025-12-29 22:29:57,099 [INFO] Test Session Completed.

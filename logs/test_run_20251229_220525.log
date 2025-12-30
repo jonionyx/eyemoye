@@ -1,0 +1,31 @@
+2025-12-29 22:05:26,065 [INFO] Starting Test Session . . .
+2025-12-29 22:05:26,066 [INFO] Environment 'placeholder' does not require auth. Proceeding as Guest
+2025-12-29 22:05:26,067 [INFO] REQUEST: POST https://jsonplaceholder.typicode.com/users
+2025-12-29 22:05:26,068 [INFO] Payload: [{"name": "Greta Name", "username": "cheryl97", "email": "eyoung@example.org", "address": {"street": "59041 Butler Inlet", "suite": "Suite 323", "city": "East Jacobfort", "zipcode": "44493", "geo": {"lat": 40.741895, "lng": 40.741895}}, "phone": "234 5678901", "website": "http://waller-chen.com/", "company": {"name": "Company Testa", "catchPhrase": "We Build Dream", "bs": "harness real-time e-markets"}}]
+2025-12-29 22:05:26,290 [INFO] RESPONSE: 201 (0.214048s)
+2025-12-29 22:05:26,290 [INFO] Body: {
+  "0": {
+    "name": "Greta Name",
+    "username": "cheryl97",
+    "email": "eyoung@example.org",
+    "address": {
+      "street": "59041 Butler Inlet",
+      "suite": "Suite 323",
+      "city": "East Jacobfort",
+      "zipcode": "44493",
+      "geo": {
+        "lat": 40.741895,
+        "lng": 40.741895
+      }
+    },
+    "phone": "234 5678901",
+    "website": "http://waller-chen.com/",
+    "company": {
+      "name": "Company Testa",
+      "catchPhrase": "We Build Dream",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "id": 11
+}
+2025-12-29 22:05:26,363 [INFO] Test Session Completed.

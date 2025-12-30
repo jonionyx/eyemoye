@@ -1,0 +1,12 @@
+2025-12-29 01:37:18,529 [INFO] Starting Test Session . . .
+2025-12-29 01:37:18,530 [INFO] Environment 'placeholder' does not require auth. Proceeding as Guest
+2025-12-29 01:37:18,530 [INFO] REQUEST: POST https://jsonplaceholder.typicode.com/posts
+2025-12-29 01:37:18,530 [INFO] Payload: {"title": "Senior QA Framework", "body": "CRUD Testing", "userId": 1}
+2025-12-29 01:37:25,008 [INFO] RESPONSE: 201 (6.468811s)
+2025-12-29 01:37:25,008 [INFO] Body: {
+  "title": "Senior QA Framework",
+  "body": "CRUD Testing",
+  "userId": 1,
+  "id": 101
+}
+2025-12-29 01:37:25,086 [INFO] Test Session Completed.

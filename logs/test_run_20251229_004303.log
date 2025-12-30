@@ -1,0 +1,3 @@
+2025-12-29 00:43:03,236 [INFO] Starting Test Session . . .
+2025-12-29 00:43:11,492 [ERROR] Authentication Request Failed: HTTPSConnectionPool(host='restful-booker.herokuapp.com', port=443): Read timed out. (read timeout=5)
+2025-12-29 00:43:12,178 [INFO] Test Session Completed.

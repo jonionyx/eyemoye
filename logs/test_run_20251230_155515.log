@@ -1,0 +1,51 @@
+2025-12-30 15:55:15,555 [INFO] Starting Test Session . . .
+2025-12-30 15:55:15,556 [INFO]  Environment 'booker' requires auth. Attempting login  . . . 
+2025-12-30 15:55:15,977 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/booking
+2025-12-30 15:55:15,977 [INFO] Payload: {"firstname": "Jim", "lastname": "Brown", "totalprice": -1, "depositpaid": true, "bookingdates": {"checkin": "2025-01-01", "checkout": "2025-01-02"}}
+2025-12-30 15:55:16,063 [INFO] RESPONSE: 200 (0.084447s)
+2025-12-30 15:55:16,063 [INFO] Body: {
+  "bookingid": 2951,
+  "booking": {
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": -1,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-02"
+    }
+  }
+}
+2025-12-30 15:55:16,066 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/booking
+2025-12-30 15:55:16,066 [INFO] Payload: {"firstname": "Jim", "lastname": "Brown", "totalprice": 1.1, "depositpaid": true, "bookingdates": {"checkin": "2025-01-01", "checkout": "2025-01-02"}}
+2025-12-30 15:55:16,153 [INFO] RESPONSE: 200 (0.085047s)
+2025-12-30 15:55:16,154 [INFO] Body: {
+  "bookingid": 2953,
+  "booking": {
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 1,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-02"
+    }
+  }
+}
+2025-12-30 15:55:16,156 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/booking
+2025-12-30 15:55:16,156 [INFO] Payload: {"firstname": "Jim", "lastname": "Brown", "totalprice": 1000000000, "depositpaid": true, "bookingdates": {"checkin": "2025-01-01", "checkout": "2025-01-02"}}
+2025-12-30 15:55:16,243 [INFO] RESPONSE: 200 (0.085175s)
+2025-12-30 15:55:16,244 [INFO] Body: {
+  "bookingid": 2955,
+  "booking": {
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 1000000000,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-02"
+    }
+  }
+}
+2025-12-30 15:55:16,245 [INFO] Test Session Completed.

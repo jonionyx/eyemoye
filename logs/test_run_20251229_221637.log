@@ -1,0 +1,31 @@
+2025-12-29 22:16:37,365 [INFO] Starting Test Session . . .
+2025-12-29 22:16:37,365 [INFO] Environment 'placeholder' does not require auth. Proceeding as Guest
+2025-12-29 22:16:37,367 [INFO] REQUEST: POST https://jsonplaceholder.typicode.com/users
+2025-12-29 22:16:37,367 [INFO] Payload: [{"name": "Anthony Joshua", "username": "nsmith", "email": "russelldaisy@example.net", "address": {"street": "29216 Chad Extension Suite 058", "suite": "Suite 323", "city": "Douglashaven", "zipcode": "62681", "geo": {"lat": 40.741895, "lng": 40.741895}}, "phone": "234 5678901", "website": "https://porter.com/", "company": {"name": "Company Testa", "catchPhrase": "We Build Dream", "bs": "harness real-time e-markets"}}]
+2025-12-29 22:16:37,676 [INFO] RESPONSE: 201 (0.295218s)
+2025-12-29 22:16:37,676 [INFO] Body: {
+  "0": {
+    "name": "Anthony Joshua",
+    "username": "nsmith",
+    "email": "russelldaisy@example.net",
+    "address": {
+      "street": "29216 Chad Extension Suite 058",
+      "suite": "Suite 323",
+      "city": "Douglashaven",
+      "zipcode": "62681",
+      "geo": {
+        "lat": 40.741895,
+        "lng": 40.741895
+      }
+    },
+    "phone": "234 5678901",
+    "website": "https://porter.com/",
+    "company": {
+      "name": "Company Testa",
+      "catchPhrase": "We Build Dream",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "id": 11
+}
+2025-12-29 22:16:37,677 [INFO] Test Session Completed.
