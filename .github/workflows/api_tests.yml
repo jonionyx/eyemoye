@@ -16,10 +16,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12.0'
+          python-version: '3.12'
+          cache: 'pip' # speeds up subsequent runs
 
       - name: Install dependencies
         run: |
@@ -28,12 +29,34 @@ jobs:
 
       - name: Run API Tests
         # We run against booker in CI by default
+        # Use -n auto to leverage GitHub's runner CPU cores for concurrency
+        # Pass secrets from GitHub Settings into environment variables
+        env:
+          RESTFUL_BOOKER_USERNAME: ${{ secrets.RESTFUL_BOOKER_USERNAME }}
+          RESTFUL_BOOKER_PASSWORD: ${{ secrets.RESTFUL_BOOKER_PASSWORD }}
+          RESTFUL_BOOKER_URL: ${{ secrets.RESTFUL_BOOKER_URL }}
         run: |
-          pytest tests/scenarios/restful_booker --env booker --html=report.html --self-contained-html
+          pytest tests/scenarios/restful_booker --env booker --alluredir=allure-result -n auto
 
-      - name: Upload Test Report
-        if: always()  # Upload report even if tests fail
-        uses: actions/upload-artifact@v4
+      - name: GET Allure History
+        uses: actions/checkout@v4
+        if: always()
         with:
-          name: api-test-report
-          path: report.html
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Generate Allure Report
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
+          keep_reports: 20
+
+      - name: Deploy Report to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.ALLURE_PUBLISH_TOKEN }}
+          publish_directory: allure-history
+      
