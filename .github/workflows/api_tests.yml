@@ -58,6 +58,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.ALLURE_PUBLISH_TOKEN }}
-          publish_directory: allure-history
+          publish_directory: publish_dir
           publish_branch: gh-pages
       
