@@ -27,7 +27,7 @@ class BaseClient:
               payload = {"username": username, "password": password}
               response = self.session.post(login_url, json=payload)
               token = response.json().get("token") 
-         elif "aldrin" in self.base_url:             
+         elif "ethixdevelopment" in self.base_url:             
               login_url = f"{self.base_url.rstrip('/')}/api/authenticate/eb360" # for my original auth url
               payload = {"username": username, "password": password}
               response = self.session.post(login_url, json=payload)

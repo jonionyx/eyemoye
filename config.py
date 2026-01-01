@@ -41,7 +41,7 @@ ENVIRONMENTS = {
         "timeout": 15
     },
      "eb360": {
-        "base_url": os.getenv("EB360_BASE_URL", "https://aldrin.ethixdevelopment.com/"),
+        "base_url": os.getenv("EB360_BASE_URL", "https://eb360.ethixdevelopment.com/"),
         "username": os.getenv("EB360_USER_NAME"),
         "password": os.getenv("EB360_PASSWORD"),
         "timeout": 15

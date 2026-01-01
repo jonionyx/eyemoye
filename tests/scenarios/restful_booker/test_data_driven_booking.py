@@ -1,6 +1,6 @@
 import pytest
 from utils.validators import validate_json_schema
-from schema.user_schema import USER_CREATE_SCHEMA
+from schemas.user.user_schema import USER_CREATE_SCHEMA
 
 # Define a list of tuples: (name, job, expected_status)
 test_data = [

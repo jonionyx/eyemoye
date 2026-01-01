@@ -1,6 +1,6 @@
 from utils.helpers import DataGenerator
 from utils.validators import validate_json_schema
-from schema.user_schema import BOOKING_SCHEMA
+from schemas.user.user_schema import BOOKING_SCHEMA
 import json
 
 def test_create_booking_contract_validation(api_client):

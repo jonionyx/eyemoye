@@ -1,7 +1,7 @@
 import json
 import requests
 from utils.validators import validate_json_schema
-from schema.user_schema import BOOKING_SCHEMA
+from schemas.user.user_schema import BOOKING_SCHEMA
 
 def test_create_booking_id(api_client):
     """Fixture to create a temporary booking to test against."""
