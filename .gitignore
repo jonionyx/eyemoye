@@ -5,3 +5,4 @@ __pycache__/
 reports/
 *.html
 logs/
+allure-results/
