@@ -39,7 +39,7 @@ jobs:
           pytest tests/scenarios/restful_booker --env booker --alluredir=allure-result -n auto
 
       - name: GET Allure History
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         if: always()
         with:
           ref: gh-pages
@@ -58,6 +58,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.ALLURE_PUBLISH_TOKEN }}
-          publish_directory: publish_dir
+          publish_dir: allure-history
           publish_branch: gh-pages
       
