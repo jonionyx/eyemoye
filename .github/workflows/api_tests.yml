@@ -36,11 +36,12 @@ jobs:
           RESTFUL_BOOKER_PASSWORD: ${{ secrets.RESTFUL_BOOKER_PASSWORD }}
           RESTFUL_BOOKER_URL: ${{ secrets.RESTFUL_BOOKER_URL }}
         run: |
-          pytest tests/scenarios/restful_booker --env booker --alluredir=allure-result -n auto
+          pytest tests/scenarios/restful_booker --env booker --alluredir=allure-results -n auto
 
       - name: GET Allure History
         uses: actions/checkout@v3
         if: always()
+        continue-on-error: true # Added: ensures the first run doesn't fail the job
         with:
           ref: gh-pages
           path: gh-pages
