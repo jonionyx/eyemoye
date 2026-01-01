@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12.0'
 
       - name: Install dependencies
         run: |
@@ -27,9 +27,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run API Tests
-        # We run against staging in CI by default
+        # We run against booker in CI by default
         run: |
-          pytest --env staging --html=report.html --self-contained-html
+          pytest tests/scenarios/restful_booker --env booker --html=report.html --self-contained-html
 
       - name: Upload Test Report
         if: always()  # Upload report even if tests fail
