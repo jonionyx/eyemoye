@@ -1,0 +1,4 @@
+INFO     utils.helpers:base_client.py:89 REQUEST: GET https://restful-booker.herokuapp.com/https://reqres.in/api/users?delay=5
+INFO     utils.helpers:base_client.py:97 RESPONSE: 404 (0.021481s)
+INFO     utils.helpers:base_client.py:103 Body: Not Found
+INFO     utils.helpers:conftest.py:126 Test Session Completed.
