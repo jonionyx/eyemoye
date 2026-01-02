@@ -6,3 +6,4 @@ reports/
 *.html
 logs/
 allure-results/
+tests/scenarios/eb360
