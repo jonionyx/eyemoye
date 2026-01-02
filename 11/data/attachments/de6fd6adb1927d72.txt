@@ -1,0 +1,5 @@
+INFO     utils.helpers:conftest.py:124 Starting Test Session . . .
+INFO     utils.helpers:conftest.py:79  Environment 'booker' requires auth. Attempting login  . . .
+INFO     utils.helpers:base_client.py:89 REQUEST: GET https://restful-booker.herokuapp.com/ping
+INFO     utils.helpers:base_client.py:97 RESPONSE: 201 (0.007078s)
+INFO     utils.helpers:base_client.py:103 Body: Created

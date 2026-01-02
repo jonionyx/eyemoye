@@ -1,0 +1,106 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","129","test_fuzz_input","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","passed","Fri Jan 02 01:01:47 UTC 2026","","test_fuzzy_input","",""
+"","499","Permutation: Negative User ID","tests.scenarios.eb360","Wed Dec 31 23:52:46 UTC 2025","failed","Wed Dec 31 23:52:47 UTC 2025","","User Management","",""
+"","564","Permutation: Missing Email","tests.scenarios.eb360","Thu Jan 01 00:38:59 UTC 2026","passed","Thu Jan 01 00:39:00 UTC 2026","","User Management","",""
+"","510","Permutation: Invalid Email Format","tests.scenarios.eb360","Thu Jan 01 00:39:00 UTC 2026","passed","Thu Jan 01 00:39:00 UTC 2026","","User Management","",""
+"
+    Stress Test: Running 20 unique creations. 
+    Faker ensures no 'Duplicate' errors occur.
+    ","1115","test_user_stress_creation[user_data0]","tests.scenarios.eb360","Thu Jan 01 02:45:20 UTC 2026","passed","Thu Jan 01 02:45:21 UTC 2026","","test_user_stress","",""
+"","7","test_delete_user_workflow","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","broken","Fri Jan 02 01:01:46 UTC 2026","","test_booking_workflow","",""
+"","584","Permutation: Negative User ID","tests.scenarios.eb360","Thu Jan 01 00:39:01 UTC 2026","passed","Thu Jan 01 00:39:01 UTC 2026","","User Management","",""
+"
+    Stress Test: Running 20 unique creations. 
+    Faker ensures no 'Duplicate' errors occur.
+    ","1021","test_user_stress_creation[user_data1]","tests.scenarios.eb360","Thu Jan 01 02:45:21 UTC 2026","passed","Thu Jan 01 02:45:23 UTC 2026","","test_user_stress","",""
+"
+    Stress Test: Running 20 unique creations. 
+    Faker ensures no 'Duplicate' errors occur.
+    ","715","test_user_stress_creation[user_data0]","tests.scenarios.eb360","Thu Jan 01 02:45:01 UTC 2026","failed","Thu Jan 01 02:45:02 UTC 2026","","test_user_stress","",""
+"
+    Scenario: Sending a firstname that is 100,000 characters long.
+    ","27","test_extremely_large_payload","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","failed","Fri Jan 02 01:01:46 UTC 2026","","test_large_payload","",""
+"","416","Permutation: Non-existent Company","tests.scenarios.eb360","Wed Dec 31 23:52:47 UTC 2025","failed","Wed Dec 31 23:52:47 UTC 2025","","User Management","",""
+"
+    Scenario: Sending malformed data types should return 400 Bad Request.
+    ","8","test_booking_invalid_data_types[missing_required_field-payload1]","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","failed","Fri Jan 02 01:01:46 UTC 2026","","test_negative_cases","",""
+"
+    Verify:
+    1. .env credentials are loaded.
+    2. Authentication endpoint /api/authenticate/eb360 works.
+    3. The authToken is extracted and injected into headers.
+    4. A follow-up GET request to a protected endpoint succeeds.
+    ","0","test_smoke_auth_and_connection","tests.scenarios.restful_booker","Fri Jan 02 01:01:47 UTC 2026","failed","Fri Jan 02 01:01:47 UTC 2026","","test_smoke_tests_suites","",""
+"","7","test_price_boundary_limits[-1]","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","passed","Fri Jan 02 01:01:46 UTC 2026","","test_boundary_analysis","",""
+"","553","Permutation: Large ID Boundary","tests.scenarios.eb360","Thu Jan 01 00:39:00 UTC 2026","failed","Thu Jan 01 00:39:01 UTC 2026","","User Management","",""
+"
+    This test will run 5 times with the different inputs defined above.
+    ","6","test_create_user_data_driven[A-Manager-201]","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","failed","Fri Jan 02 01:01:46 UTC 2026","","test_data_driven_booking","",""
+"","11","test_create_booking_contract_validation","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","failed","Fri Jan 02 01:01:46 UTC 2026","","test_booking","",""
+"
+    SLA Test:
+    Create a booking to verify response is under 800ms
+
+    ","7","test_booking_response_latency","tests.scenarios.restful_booker","Fri Jan 02 01:01:47 UTC 2026","passed","Fri Jan 02 01:01:47 UTC 2026","","test_performance","",""
+"","7","test_business_logic_date_validation","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","failed","Fri Jan 02 01:01:46 UTC 2026","","test_business_logic","",""
+"
+    This test will run 5 times with the different inputs defined above.
+    ","9","test_create_user_data_driven[VeryLongNameExceedingNormalLimits-Dev-201]","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","failed","Fri Jan 02 01:01:46 UTC 2026","","test_data_driven_booking","",""
+"","6","test_price_boundary_limits[Two Hundred]","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","passed","Fri Jan 02 01:01:46 UTC 2026","","test_boundary_analysis","",""
+"","657","Permutation: Non-existent Company","tests.scenarios.eb360","Thu Jan 01 00:39:01 UTC 2026","passed","Thu Jan 01 00:39:02 UTC 2026","","User Management","",""
+"
+    Stress Test: Running 20 unique creations. 
+    Faker ensures no 'Duplicate' errors occur.
+    ","708","test_user_stress_creation[user_data2]","tests.scenarios.eb360","Thu Jan 01 02:45:02 UTC 2026","failed","Thu Jan 01 02:45:03 UTC 2026","","test_user_stress","",""
+"","7","test_price_boundary_limits[1000000000]","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","passed","Fri Jan 02 01:01:46 UTC 2026","","test_boundary_analysis","",""
+"This test verifies that a user can successfully create a booking and receives a 200 OK.","7","test_create_booking_success","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","passed","Fri Jan 02 01:01:46 UTC 2026","TestBooking","Booking Management","",""
+"","611","Permutation: SQL Injection Attempt","tests.scenarios.eb360","Thu Jan 01 00:39:02 UTC 2026","passed","Thu Jan 01 00:39:03 UTC 2026","","User Management","",""
+"
+    This test will run 5 times with the different inputs defined above.
+    ","7","test_create_user_data_driven[Alice--400]","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","failed","Fri Jan 02 01:01:46 UTC 2026","","test_data_driven_booking","",""
+"
+    Scenario: Sending malformed data types should return 400 Bad Request.
+    ","6","test_booking_invalid_data_types[invalid_date_format-payload2]","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","failed","Fri Jan 02 01:01:46 UTC 2026","","test_negative_cases","",""
+"
+    Stress Test: Running 20 unique creations. 
+    Faker ensures no 'Duplicate' errors occur.
+    ","569","test_user_stress_creation[user_data4]","tests.scenarios.eb360","Thu Jan 01 02:45:04 UTC 2026","failed","Thu Jan 01 02:45:04 UTC 2026","","test_user_stress","",""
+"
+    This test will run 5 times with the different inputs defined above.
+    ","6","test_create_user_data_driven[John-Engineer-201]","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","failed","Fri Jan 02 01:01:46 UTC 2026","","test_data_driven_booking","",""
+"Fixture to create a temporary booking to test against.","9","test_create_booking_id","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","failed","Fri Jan 02 01:01:46 UTC 2026","","test_create_booking","",""
+"
+    Stress Test: Running 20 unique creations. 
+    Faker ensures no 'Duplicate' errors occur.
+    ","502","test_user_stress_creation[user_data3]","tests.scenarios.eb360","Thu Jan 01 02:45:03 UTC 2026","failed","Thu Jan 01 02:45:04 UTC 2026","","test_user_stress","",""
+"
+    Stress Test: Running 20 unique creations. 
+    Faker ensures no 'Duplicate' errors occur.
+    ","1082","test_user_stress_creation[user_data4]","tests.scenarios.eb360","Thu Jan 01 02:45:24 UTC 2026","passed","Thu Jan 01 02:45:25 UTC 2026","","test_user_stress","",""
+"
+    Scenario: If the server takes longer than the client's timeout, 
+    the framework should raise a Timeout error gracefully.
+    ","9","test_api_timeout_handling","tests.scenarios.restful_booker","Fri Jan 02 01:01:47 UTC 2026","failed","Fri Jan 02 01:01:47 UTC 2026","","test_resilience","",""
+"
+    Stress Test: Running 20 unique creations. 
+    Faker ensures no 'Duplicate' errors occur.
+    ","545","test_user_stress_creation[user_data1]","tests.scenarios.eb360","Thu Jan 01 02:45:02 UTC 2026","failed","Thu Jan 01 02:45:02 UTC 2026","","test_user_stress","",""
+"
+    Scenario: Sending malformed data types should return 400 Bad Request.
+    ","6","test_booking_invalid_data_types[string_instead_of_int-payload0]","tests.scenarios.restful_booker","Fri Jan 02 01:01:47 UTC 2026","failed","Fri Jan 02 01:01:47 UTC 2026","","test_negative_cases","",""
+"
+    Stress Test: Running 20 unique creations. 
+    Faker ensures no 'Duplicate' errors occur.
+    ","914","test_user_stress_creation[user_data3]","tests.scenarios.eb360","Thu Jan 01 02:45:23 UTC 2026","passed","Thu Jan 01 02:45:24 UTC 2026","","test_user_stress","",""
+"
+    Verify that the session correctly maintains the Bearer token
+    by calling a 'profile' or 'whoami' endpoint.
+    ","8","test_authentication_persistence","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","broken","Fri Jan 02 01:01:46 UTC 2026","","test_auth","",""
+"","989","Permutation: Valid User Creation","tests.scenarios.eb360","Thu Jan 01 00:38:58 UTC 2026","broken","Thu Jan 01 00:38:59 UTC 2026","","User Management","",""
+"
+    This test will run 5 times with the different inputs defined above.
+    ","7","test_create_user_data_driven[-Recruiter-400]","tests.scenarios.restful_booker","Fri Jan 02 01:01:46 UTC 2026","failed","Fri Jan 02 01:01:46 UTC 2026","","test_data_driven_booking","",""
+"
+    Stress Test: Running 20 unique creations. 
+    Faker ensures no 'Duplicate' errors occur.
+    ","861","test_user_stress_creation[user_data2]","tests.scenarios.eb360","Thu Jan 01 02:45:23 UTC 2026","passed","Thu Jan 01 02:45:23 UTC 2026","","test_user_stress","",""
