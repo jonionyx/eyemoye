@@ -1,0 +1,20 @@
+[
+  {
+    "test_id": "standard_booking",
+    "firstname": "Alice",
+    "lastname": "Lead",
+    "totalprice": 100,
+    "depositpaid": true,
+    "bookingdates": { "checkin": "2026-01-01", "checkout": "2026-01-02" },
+    "additionalneeds": "Breakfast"
+  },
+  {
+    "test_id": "premium_booking",
+    "firstname": "Bob",
+    "lastname": "Intern",
+    "totalprice": 250,
+    "depositpaid": false,
+    "bookingdates": { "checkin": "2026-05-10", "checkout": "2026-05-15" },
+    "additionalneeds": "Late Checkout"
+  }
+]

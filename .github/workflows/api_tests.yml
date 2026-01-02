@@ -36,7 +36,16 @@ jobs:
           RESTFUL_BOOKER_PASSWORD: ${{ secrets.RESTFUL_BOOKER_PASSWORD }}
           RESTFUL_BOOKER_URL: ${{ secrets.RESTFUL_BOOKER_URL }}
         run: |
-          pytest tests/scenarios/restful_booker --env booker --alluredir=allure-results -n auto
+          echo "Running Functional Tests..."
+          pytest tests/scenarios/restful_booker/functionality --env booker --alluredir=allure-results -n auto
+
+          echo "Running Security Tests..."
+          pytest tests/scenarios/restful_booker/security --env booker --alluredir=allure-results -n auto
+
+          echo "Running Performance Tests..."
+          pytest tests/scenarios/restful_booker/performance --env booker --alluredir=allure-results -n auto
+
+
 
       - name: GET Allure History
         uses: actions/checkout@v3
