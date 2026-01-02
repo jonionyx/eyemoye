@@ -1,0 +1,4 @@
+2026-01-01 00:15:00,144 [INFO] REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
+2026-01-01 00:15:00,144 [INFO] Payload: {"firstname": "Tracy", "lastname": "Smith", "email": "brooke82@example.net", "roles": ["basic", "admin"], "companyId": 848, "userId": -1}
+2026-01-01 00:15:00,767 [INFO] RESPONSE: 403 (0.621356s)
+2026-01-01 00:15:00,767 [INFO] Body: 

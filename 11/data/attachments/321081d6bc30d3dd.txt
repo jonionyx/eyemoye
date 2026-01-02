@@ -1,0 +1,5 @@
+2026-01-02 01:08:54,758 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/users
+2026-01-02 01:08:54,759 [INFO] Payload: {"name": "John", "job": "Engineer"}
+2026-01-02 01:08:54,763 [INFO] RESPONSE: 404 (0.004231s)
+2026-01-02 01:08:54,763 [INFO] Body: Not Found
+2026-01-02 01:08:54,767 [INFO] Test Session Completed.

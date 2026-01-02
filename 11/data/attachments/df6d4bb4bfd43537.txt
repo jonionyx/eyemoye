@@ -1,0 +1,4 @@
+2025-12-31 23:52:46,899 [INFO] REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
+2025-12-31 23:52:46,900 [INFO] Payload: {"firstname": "Task", "lastname": "Initiator", "email": "initiator@yopmail.com", "roles": ["basic", "admin"], "companyId": 848, "userId": -1}
+2025-12-31 23:52:47,397 [INFO] RESPONSE: 403 (0.486859s)
+2025-12-31 23:52:47,397 [INFO] Body: 

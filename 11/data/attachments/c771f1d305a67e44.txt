@@ -1,0 +1,4 @@
+2026-01-02 01:08:54,576 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/users
+2026-01-02 01:08:54,577 [INFO] Payload: {"firstName": "Lauren", "lastName": "Gonzalez", "username": "jeffreybraun", "email": "lmorton@example.com", "password": "PTa6aEYpEwky", "icon": "https://picsum.photos/207/823"}
+2026-01-02 01:08:54,582 [INFO] RESPONSE: 404 (0.004627s)
+2026-01-02 01:08:54,582 [INFO] Body: Not Found
