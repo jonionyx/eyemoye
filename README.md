@@ -1,5 +1,21 @@
 # API Test Automation Framework
-Python-based test automation framework for RESTful APIs built with **pytest** and **requests**. This framework features global authentication, environment switching, contract validation, and automated reporting.
+
+Python-based test automation framework for RESTful APIs built with **pytest** and **requests**. This framework features global authentication, environment switching, contract validation and automated reporting.
+## Features
+- **Environment switching:** Run tests against different api resources for testing purposes, this set up  mimicks tunning tests against different environments such as Dev or Staging or Prod using CLI flags
+- **Global Auth:** Centralised session management with automatic Bearer token injection
+- **Contract Testing:**JSON Schema validation using jsonschema
+- **Dynamic Data**: Synthetic data generation using Faker
+- **CI/CD Ready:**Configured GitHub Action workflows 
+- **Reporting:** 
+  - Rich HTML reports with request / response logs on failure
+  - Allure reporting with Json Data attachment for drilling down capabilities
+- **Performance SLAs:** 
+
+## Prerequisites
+- Python: 3.10 or higher
+
+## Installation & Setup
 
 
 
