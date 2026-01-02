@@ -1,0 +1,9 @@
+[32mINFO    [0m utils.helpers:conftest.py:124 Starting Test Session . . .
+[32mINFO    [0m utils.helpers:conftest.py:79  Environment 'eb360' requires auth. Attempting login  . . .
+[32mINFO    [0m utils.helpers:base_client.py:89 REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
+[32mINFO    [0m utils.helpers:base_client.py:91 Payload: {"firstname": "Tracy", "lastname": "Smith", "email": "brooke82@example.net", "roles": ["basic", "admin"], "companyId": 848, "userId": 7098}
+[32mINFO    [0m utils.helpers:base_client.py:97 RESPONSE: 200 (1.125914s)
+[32mINFO    [0m utils.helpers:base_client.py:101 Body: {
+  "message": "User has been added successfully.",
+  "status": 1
+}
