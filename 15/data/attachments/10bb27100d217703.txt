@@ -1,0 +1,5 @@
+INFO     utils.helpers:base_client.py:89 REQUEST: POST https://restful-booker.herokuapp.com/booking
+INFO     utils.helpers:base_client.py:91 Payload: {"firstname": "Jim", "lastname": "Brown", "totalprice": 111, "depositpaid": true, "bookingdates": {"checkin": "01-01-2025"}}
+INFO     utils.helpers:base_client.py:97 RESPONSE: 500 (0.054587s)
+INFO     utils.helpers:base_client.py:103 Body: Internal Server Error
+INFO     utils.helpers:conftest.py:126 Test Session Completed.
