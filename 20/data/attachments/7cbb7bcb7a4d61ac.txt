@@ -1,0 +1,20 @@
+[32mINFO    [0m utils.helpers:conftest.py:124 Starting Test Session . . .
+[32mINFO    [0m utils.helpers:conftest.py:79  Environment 'booker' requires auth. Attempting login  . . .
+[32mINFO    [0m utils.helpers:base_client.py:89 REQUEST: POST https://restful-booker.herokuapp.com/booking
+[32mINFO    [0m utils.helpers:base_client.py:91 Payload: {"firstname": "Allure", "lastname": "Report", "totalprice": 100, "depositpaid": true, "bookingdates": {"checkin": "2025-01-01", "checkout": "2025-01-02"}, "additionalneeds": "Breakfast"}
+[32mINFO    [0m utils.helpers:base_client.py:97 RESPONSE: 200 (0.083148s)
+[32mINFO    [0m utils.helpers:base_client.py:101 Body: {
+  "bookingid": 3877,
+  "booking": {
+    "firstname": "Allure",
+    "lastname": "Report",
+    "totalprice": 100,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-02"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+[32mINFO    [0m utils.helpers:conftest.py:126 Test Session Completed.
