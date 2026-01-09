@@ -1,0 +1,9 @@
+2025-12-31 23:52:41,356 [INFO] Starting Test Session . . .
+2025-12-31 23:52:41,357 [INFO]  Environment 'eb360' requires auth. Attempting login  . . . 
+2025-12-31 23:52:43,504 [INFO] REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
+2025-12-31 23:52:43,505 [INFO] Payload: {"firstname": "Task", "lastname": "Initiator", "email": "initiator@yopmail.com", "roles": ["basic", "admin"], "companyId": 848, "userId": 7098}
+2025-12-31 23:52:44,679 [INFO] RESPONSE: 200 (1.17256s)
+2025-12-31 23:52:44,680 [INFO] Body: {
+  "message": "User has been added successfully.",
+  "status": 1
+}
