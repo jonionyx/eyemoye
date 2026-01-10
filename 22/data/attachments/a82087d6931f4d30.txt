@@ -1,0 +1,7 @@
+[32mINFO    [0m utils.helpers:base_client.py:89 REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
+[32mINFO    [0m utils.helpers:base_client.py:91 Payload: {"firstname": "Robert", "lastname": "Lucero", "email": "byu@example.com", "roles": ["basic"], "companyId": 848, "userId": 7098}
+[32mINFO    [0m utils.helpers:base_client.py:97 RESPONSE: 200 (0.859066s)
+[32mINFO    [0m utils.helpers:base_client.py:101 Body: {
+  "message": "User has been added successfully.",
+  "status": 1
+}
