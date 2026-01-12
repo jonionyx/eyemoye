@@ -1,0 +1,11 @@
+2026-01-01 02:44:59,496 [INFO] Starting Test Session . . .
+2026-01-01 02:44:59,497 [INFO]  Environment 'eb360' requires auth. Attempting login  . . . 
+2026-01-01 02:45:01,509 [INFO] REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
+2026-01-01 02:45:01,509 [INFO] Payload: {"firstname": "Natasha", "lastname": "Jones", "email": "meghan77@example.org", "roles": ["basic"], "companyId": 848, "userId": 7098}
+2026-01-01 02:45:02,215 [INFO] RESPONSE: 400 (0.703909s)
+2026-01-01 02:45:02,216 [INFO] Body: {
+  "errors": {
+    "email": "User with provided email already exist at this company."
+  },
+  "message": "You have validation error(s)"
+}
