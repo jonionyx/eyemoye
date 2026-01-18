@@ -1,4 +1,0 @@
-INFO     utils.helpers:base_client.py:89 REQUEST: POST https://restful-booker.herokuapp.com/users
-INFO     utils.helpers:base_client.py:91 Payload: {"name": "A", "job": "Manager"}
-INFO     utils.helpers:base_client.py:97 RESPONSE: 404 (0.009675s)
-INFO     utils.helpers:base_client.py:103 Body: Not Found

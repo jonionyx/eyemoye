@@ -1,4 +1,0 @@
-2026-01-02 00:30:58,100 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/users
-2026-01-02 00:30:58,100 [INFO] Payload: {"firstName": "Robert", "lastName": "Barrett", "username": "lewisrobert", "email": "tyler37@example.net", "password": "Oo0tP5Gj7WD7", "icon": "https://dummyimage.com/251x870"}
-2026-01-02 00:30:58,110 [INFO] RESPONSE: 404 (0.009236s)
-2026-01-02 00:30:58,110 [INFO] Body: Not Found

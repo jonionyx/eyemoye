@@ -1,4 +1,0 @@
-2026-01-02 00:30:58,249 [INFO] REQUEST: GET https://restful-booker.herokuapp.com/https://reqres.in/api/users?delay=5
-2026-01-02 00:30:58,259 [INFO] RESPONSE: 404 (0.009603s)
-2026-01-02 00:30:58,260 [INFO] Body: Not Found
-2026-01-02 00:30:58,263 [INFO] Test Session Completed.
