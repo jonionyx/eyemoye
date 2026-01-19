@@ -1,4 +1,0 @@
-2026-01-02 01:01:46,918 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/users
-2026-01-02 01:01:46,918 [INFO] Payload: {"name": "Alice", "job": ""}
-2026-01-02 01:01:46,924 [INFO] RESPONSE: 404 (0.005116s)
-2026-01-02 01:01:46,924 [INFO] Body: Not Found

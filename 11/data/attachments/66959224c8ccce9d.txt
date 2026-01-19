@@ -1,7 +1,0 @@
-2026-01-01 02:45:23,007 [INFO] REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
-2026-01-01 02:45:23,008 [INFO] Payload: {"firstname": "Robert", "lastname": "Lucero", "email": "byu@example.com", "roles": ["basic"], "companyId": 848, "userId": 7098}
-2026-01-01 02:45:23,868 [INFO] RESPONSE: 200 (0.859066s)
-2026-01-01 02:45:23,868 [INFO] Body: {
-  "message": "User has been added successfully.",
-  "status": 1
-}

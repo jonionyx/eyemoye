@@ -1,9 +1,0 @@
-[32mINFO    [0m utils.helpers:base_client.py:89 REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
-[32mINFO    [0m utils.helpers:base_client.py:91 Payload: {"firstname": "Jeffrey", "lastname": "Steele", "email": "shaynes@example.net", "roles": ["basic"], "companyId": 848, "userId": 7098}
-[32mINFO    [0m utils.helpers:base_client.py:97 RESPONSE: 400 (0.498478s)
-[32mINFO    [0m utils.helpers:base_client.py:101 Body: {
-  "errors": {
-    "email": "User with provided email already exist at this company."
-  },
-  "message": "You have validation error(s)"
-}

@@ -1,9 +1,0 @@
-2026-01-01 00:14:59,142 [INFO] REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
-2026-01-01 00:14:59,142 [INFO] Payload: {"firstname": "Tracy", "lastname": "Smith", "email": "not-an-email", "roles": ["basic", "admin"], "companyId": 848, "userId": 7098}
-2026-01-01 00:14:59,640 [INFO] RESPONSE: 400 (0.495929s)
-2026-01-01 00:14:59,640 [INFO] Body: {
-  "errors": {
-    "email": "User with provided email already exist at this company."
-  },
-  "message": "You have validation error(s)"
-}

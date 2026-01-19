@@ -1,5 +1,0 @@
-2026-01-02 01:01:46,653 [INFO] Starting Test Session . . .
-2026-01-02 01:01:46,654 [INFO]  Environment 'booker' requires auth. Attempting login  . . . 
-2026-01-02 01:01:46,716 [INFO] REQUEST: GET https://restful-booker.herokuapp.com/ping
-2026-01-02 01:01:46,724 [INFO] RESPONSE: 201 (0.007078s)
-2026-01-02 01:01:46,724 [INFO] Body: Created

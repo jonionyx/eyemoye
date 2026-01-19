@@ -1,4 +1,0 @@
-[32mINFO    [0m utils.helpers:base_client.py:89 REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
-[32mINFO    [0m utils.helpers:base_client.py:91 Payload: {"firstname": "Task", "lastname": "Initiator", "email": "initiator@yopmail.com", "roles": ["basic", "admin"], "companyId": 848, "userId": -1}
-[32mINFO    [0m utils.helpers:base_client.py:97 RESPONSE: 403 (0.495861s)
-[32mINFO    [0m utils.helpers:base_client.py:103 Body:

@@ -1,9 +1,0 @@
-[32mINFO    [0m utils.helpers:base_client.py:89 REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
-[32mINFO    [0m utils.helpers:base_client.py:91 Payload: {"firstname": "Tracy", "lastname": "Smith", "email": "brooke82@example.net", "roles": ["basic", "admin"], "companyId": 0, "userId": 7098}
-[32mINFO    [0m utils.helpers:base_client.py:97 RESPONSE: 400 (0.398014s)
-[32mINFO    [0m utils.helpers:base_client.py:101 Body: {
-  "errors": {
-    "companyId": "Please provide a valid companyId!"
-  },
-  "message": "You have validation error(s)"
-}

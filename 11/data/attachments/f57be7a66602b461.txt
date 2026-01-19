@@ -1,9 +1,0 @@
-2025-12-31 23:55:30,115 [INFO] REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
-2025-12-31 23:55:30,116 [INFO] Payload: {"firstname": "Task", "lastname": "Initiator", "email": "initiator@yopmail.com", "roles": ["basic", "admin"], "companyId": 999999, "userId": 7098}
-2025-12-31 23:55:30,569 [INFO] RESPONSE: 400 (0.450084s)
-2025-12-31 23:55:30,570 [INFO] Body: {
-  "errors": {
-    "companyId": "Please provide a valid companyId!"
-  },
-  "message": "You have validation error(s)"
-}

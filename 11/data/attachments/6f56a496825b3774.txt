@@ -1,9 +1,0 @@
-2026-01-01 01:47:35,345 [INFO] Starting Test Session . . .
-2026-01-01 01:47:35,346 [INFO]  Environment 'eb360' requires auth. Attempting login  . . . 
-2026-01-01 01:47:37,593 [INFO] REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
-2026-01-01 01:47:37,593 [INFO] Payload: {"firstname": "Natasha", "lastname": "Jones", "email": "meghan77@example.org", "roles": ["basic"], "companyId": 848, "userId": 7098}
-2026-01-01 01:47:38,521 [INFO] RESPONSE: 200 (0.925509s)
-2026-01-01 01:47:38,521 [INFO] Body: {
-  "message": "User has been added successfully.",
-  "status": 1
-}

@@ -1,9 +1,0 @@
-2026-01-01 00:39:00,748 [INFO] REQUEST: POST https://eb360.ethixdevelopment.com/./api/add/platform/user
-2026-01-01 00:39:00,749 [INFO] Payload: {"firstname": "Michael", "lastname": "Davis", "email": "justin26@example.com", "roles": ["basic", "admin"], "companyId": 999999, "userId": 7098}
-2026-01-01 00:39:01,300 [INFO] RESPONSE: 400 (0.550086s)
-2026-01-01 00:39:01,301 [INFO] Body: {
-  "errors": {
-    "companyId": "Please provide a valid companyId!"
-  },
-  "message": "You have validation error(s)"
-}
