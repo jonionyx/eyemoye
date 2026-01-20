@@ -1,0 +1,1 @@
+{"total":20,"items":[{"uid":"3789f4294a9d81b0c822750d5b9f5a80","name":"User Creation","statistic":{"failed":3,"broken":1,"skipped":0,"passed":5,"unknown":0,"total":9}},{"uid":"a1ce4a5c6c3663e71efe6fc2bfcc67df","name":"Create Booking","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
