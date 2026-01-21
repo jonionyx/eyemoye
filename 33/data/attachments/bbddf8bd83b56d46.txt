@@ -1,0 +1,17 @@
+INFO     utils.helpers:base_client.py:89 REQUEST: POST https://restful-booker.herokuapp.com/booking
+INFO     utils.helpers:base_client.py:91 Payload: {"firstname": "Jim", "lastname": "Brown", "totalprice": 1000000000, "depositpaid": true, "bookingdates": {"checkin": "2025-01-01", "checkout": "2025-01-02"}}
+INFO     utils.helpers:base_client.py:97 RESPONSE: 200 (0.050523s)
+INFO     utils.helpers:base_client.py:101 Body: {
+  "bookingid": 1576,
+  "booking": {
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 1000000000,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-02"
+    }
+  }
+}
+INFO     utils.helpers:conftest.py:126 Test Session Completed.

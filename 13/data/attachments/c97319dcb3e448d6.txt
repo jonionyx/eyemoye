@@ -1,4 +1,0 @@
-2026-01-02 01:39:55,064 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/users
-2026-01-02 01:39:55,064 [INFO] Payload: {"name": "VeryLongNameExceedingNormalLimits", "job": "Dev"}
-2026-01-02 01:39:55,087 [INFO] RESPONSE: 404 (0.021763s)
-2026-01-02 01:39:55,087 [INFO] Body: Not Found

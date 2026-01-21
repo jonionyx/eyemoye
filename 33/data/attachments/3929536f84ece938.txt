@@ -1,0 +1,6 @@
+2026-01-21 01:43:51,547 [INFO] Starting Test Session . . .
+2026-01-21 01:43:51,548 [INFO]  Environment 'booker' requires auth. Attempting login  . . . 
+2026-01-21 01:43:51,832 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/users
+2026-01-21 01:43:51,832 [INFO] Payload: {"firstName": "Danielle", "lastName": "Edwards", "username": "xmccormick", "email": "xmaxwell@example.net", "password": "YuQXLYCgSCOs", "icon": "https://picsum.photos/941/362"}
+2026-01-21 01:43:51,883 [INFO] RESPONSE: 404 (0.050493s)
+2026-01-21 01:43:51,883 [INFO] Body: Not Found
