@@ -1,0 +1,17 @@
+2026-01-22 01:43:39,343 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/booking
+2026-01-22 01:43:39,343 [INFO] Payload: {"firstname": "Jim", "lastname": "Brown", "totalprice": -1, "depositpaid": true, "bookingdates": {"checkin": "2025-01-01", "checkout": "2025-01-02"}}
+2026-01-22 01:43:39,395 [INFO] RESPONSE: 200 (0.050818s)
+2026-01-22 01:43:39,395 [INFO] Body: {
+  "bookingid": 1733,
+  "booking": {
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": -1,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-02"
+    }
+  }
+}
+2026-01-22 01:43:39,396 [INFO] Test Session Completed.

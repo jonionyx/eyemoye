@@ -1,6 +1,0 @@
-2026-01-02 20:35:08,128 [INFO] Starting Test Session . . .
-2026-01-02 20:35:08,129 [INFO]  Environment 'booker' requires auth. Attempting login  . . . 
-2026-01-02 20:35:08,383 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/users
-2026-01-02 20:35:08,383 [INFO] Payload: {"firstName": "Michael", "lastName": "Thompson", "username": "jonesregina", "email": "dana49@example.com", "password": "x9YmN7YaLit0", "icon": "https://dummyimage.com/824x521"}
-2026-01-02 20:35:08,406 [INFO] RESPONSE: 404 (0.021869s)
-2026-01-02 20:35:08,406 [INFO] Body: Not Found
