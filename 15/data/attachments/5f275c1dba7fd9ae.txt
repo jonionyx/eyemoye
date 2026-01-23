@@ -1,5 +1,0 @@
-2026-01-03 01:25:58,599 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/booking
-2026-01-03 01:25:58,599 [INFO] Payload: {"firstname": "Jim", "lastname": "Brown", "totalprice": 111, "depositpaid": true, "bookingdates": {"checkin": "01-01-2025"}}
-2026-01-03 01:25:58,654 [INFO] RESPONSE: 500 (0.054587s)
-2026-01-03 01:25:58,654 [INFO] Body: Internal Server Error
-2026-01-03 01:25:58,688 [INFO] Test Session Completed.
