@@ -1,0 +1,6 @@
+INFO     utils.helpers:conftest.py:124 Starting Test Session . . .
+INFO     utils.helpers:conftest.py:79  Environment 'booker' requires auth. Attempting login  . . .
+INFO     utils.helpers:base_client.py:89 REQUEST: POST https://restful-booker.herokuapp.com/users
+INFO     utils.helpers:base_client.py:91 Payload: {"firstName": "Warren", "lastName": "Lucero", "username": "joannaanderson", "email": "shannonwebb@example.com", "password": "lQ8sy3OiR4jx", "icon": "https://dummyimage.com/287x973"}
+INFO     utils.helpers:base_client.py:97 RESPONSE: 404 (0.009776s)
+INFO     utils.helpers:base_client.py:103 Body: Not Found
