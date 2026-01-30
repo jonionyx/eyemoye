@@ -16,5 +16,14 @@
     "depositpaid": false,
     "bookingdates": { "checkin": "2026-05-10", "checkout": "2026-05-15" },
     "additionalneeds": "Late Checkout"
+  },
+  {
+    "test_id": "negative_test_booking",
+    "firstname": "Abisheb",
+    "lastname": "Trumpian",
+    "totalprice": "One Hundres",
+    "depositpaid": false,
+    "bookingdates": { "checkin": "2026-05-10", "checkout": "2026-05-15" },
+    "additionalneeds": "Invalid data type"
   }
 ]

@@ -53,3 +53,8 @@ allure serve allure-results
 2. [geeksforgeeks](https://www.geeksforgeeks.org/python-faker-library/#)
 3. [zetcode](https://zetcode.com/python/faker/)
    
+
+### Free API Resources
+1. NASA Open APIs: https://api.nasa.gov/
+ Nasa API that return a list of asteroids: Asteroids - NeoWs : https://api.nasa.gov/neo/rest/v1/feed
+2. Bill Pay: https://gauravkhurana.in/practise-api/index.html

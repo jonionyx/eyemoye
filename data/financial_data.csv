@@ -1,0 +1,6 @@
+transaction_id,customer_id,amount,currency,timestamp
+101,C01,150.5,GBP,2023-10-01
+102,C02,-20.0,GBP,2023-10-01
+103,C01,300.0,USD,2023-10-02
+104,C03,,GBP,2023-10-02
+105,C02,450.25,GBP,2023-10-03

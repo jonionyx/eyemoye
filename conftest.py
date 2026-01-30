@@ -3,6 +3,8 @@ from config import get_config, CURRENT_ENV
 from clients.base_client import BaseClient
 from datetime import datetime
 from utils.helpers import logger
+import great_expectations as gx
+import os
 
 
 @pytest.fixture
@@ -124,3 +126,13 @@ def init_logger():
     logger.info("Starting Test Session . . .")
     yield
     logger.info("Test Session Completed.")
+
+
+
+# @pytest.fixture(scope="session")
+# def gx_context():
+#     """Initialises the Great Expectations context for the entire test session. """
+
+#     # This will create or load the /gx folder in the root directory
+
+#     return gx.get_context()

@@ -1,0 +1,19 @@
+{
+  "expectations": [
+    {
+      "id": "79686415-91ed-48bd-aaaa-883d543f1b5b",
+      "kwargs": {
+        "column": "transaction_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    }
+  ],
+  "id": "7da2de15-49cb-415a-9425-8c4512f47b7a",
+  "meta": {
+    "great_expectations_version": "1.10.0"
+  },
+  "name": "finance_suite",
+  "notes": null
+}
