@@ -1,7 +1,0 @@
-2025-12-29 23:31:27,313 [INFO] Starting Test Session . . .
-2025-12-29 23:31:27,314 [INFO]  Environment 'booker' requires auth. Attempting login  . . . 
-2025-12-29 23:31:27,772 [INFO] REQUEST: POST https://restful-booker.herokuapp.com/api/add/platform/user
-2025-12-29 23:31:27,772 [INFO] Payload: {"name": "Alice", "job": "Architect"}
-2025-12-29 23:31:27,904 [INFO] RESPONSE: 404 (0.129828s)
-2025-12-29 23:31:27,904 [INFO] Body: Not Found
-2025-12-29 23:31:27,909 [INFO] Test Session Completed.

@@ -1,7 +1,0 @@
-2025-12-30 17:41:03,214 [INFO] Starting Test Session . . .
-2025-12-30 17:41:03,215 [INFO]  Environment 'eb360' requires auth. Attempting login  . . . 
-2025-12-30 17:41:04,639 [INFO] REQUEST: POST https://aldrin.ethixdevelopment.com/api/platform/users/list
-2025-12-30 17:41:04,639 [INFO] Payload: {"filter": "", "sort": "name|desc", "per_page": 50, "page": 1, "is_active": 0, "companyId": 884, "userId": 7366}
-2025-12-30 17:41:05,109 [INFO] RESPONSE: 403 (0.467656s)
-2025-12-30 17:41:05,109 [INFO] Body: 
-2025-12-30 17:41:05,171 [INFO] Test Session Completed.
