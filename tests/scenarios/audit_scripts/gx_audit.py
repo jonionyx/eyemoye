@@ -13,6 +13,7 @@ class TestDataIntegrity:
 
         # 2. Data Source Handling (Stable 1.0 Syntax)
         datasource_name = "finance_pipeline"
+        
         try:
             # context.data_sources is the correct entry point in 1.0
             datasource = gx_context.data_sources.add_pandas(name=datasource_name)

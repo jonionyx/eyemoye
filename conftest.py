@@ -61,31 +61,36 @@ def api_client(request):
     env_name = request.config.getoption("--env", default=CURRENT_ENV)
     config = get_config(env_name)
     
-    if not config or not config.get("username"):
+    if not config:
         pytest.exit(f"Failure: Credentials for environment '{env_name}' not found in .env")
 
     # Initialise with URL and the environment-specific key
 
     client = BaseClient(
         base_url=config["base_url"],
+        api_key=config.get("api_key"),
         timeout=config.get("timeout", 10)
     )
 
-    # Conditional Authentication 
-
-    username = config.get("username")
-    password = config.get("password")
-
-    if username and password:
-        try:
-            logger.info(f" Environment '{env_name}' requires auth. Attempting login  . . . ")
-            client.authenticate(username, password)   
-        except Exception as e:
-            pytest.exit(f"Blocking Error: Authentication failed for {env_name}: {e}")
+    
+    # Logic Switch: If API Key is present, we are altready Authenticated
+    
+    if config.get("api_key"):
+        print(f"----Info: Authenticated via API Key for {env_name}---")
     else:
-        logger.info(f"Environment '{env_name}' does not require auth. Proceeding as Guest")
+        #Fall back to Username/Password if no API Key is provided
+        username = config.get("username")
+        password = config.get("password")
 
-    return client    
+        if not username or not password:
+               pytest.exit(f"Blocking Error: No API Key or Credentials found for {env_name}")
+
+        try:
+            client.authenticate(username, password)
+            print(f"----- Info: Authenticated via Credentials for {env_name}----")
+        except Exception as e:
+            pytest.exit(f"Blocking Errot: Login failed for {env_name}: {e}")
+    return client 
 
 
 

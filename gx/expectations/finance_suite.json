@@ -1,7 +1,7 @@
 {
   "expectations": [
     {
-      "id": "79686415-91ed-48bd-aaaa-883d543f1b5b",
+      "id": "2dcb2630-7257-4181-9ef1-ac559784824c",
       "kwargs": {
         "column": "transaction_id"
       },

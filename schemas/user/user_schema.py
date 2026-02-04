@@ -1,35 +1,59 @@
 
-USER_CREATE_SCHEMA = {
+      
+from jsonschema import validate
+
+USER_SCHEMA = {
     "type": "object",
     "properties": {
-        "lastname": {"type": "string"},
-        "firstname": {"type": "string"},
-        "job": {"type": "string"},
         "id": {"type": "string"},
-        "createdAt": {"type": "string", "format": "date-time"}
-
-    },
-    "required": ["roles", "createdAt"],
-    "additionalProperties": False
-
-}
-       
-USER_CREATE_RESPONSE_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "id": {"type": "number"}, # The database ID generated
-        "firstname": {"type": "string", "minLength": 1},
-        "lastname": {"type": "string", "minLength": 1},
         "email": {"type": "string", "format": "email"},
-        "roles": {
-            "type": "array",
-            "items": {"type": "string"},
-            "minItems": 0
+        "phone": {"type": "string"},
+        "firstName": {"type": "string"},
+        "lastName": {"type": "string"},
+        "kycStatus": {
+            "type": "string",
+            "enum": ["pending", "verified", "rejected"]
         },
-        "companyId": {"type": "integer"},
-        "userId": {"type": "integer"},
-        "createdAt": {"type": "string", "format": "date-time"}
+        "createdAt": {"type": "string", "format": "date-time"},
+        "updatedAt": {"type": "string", "format": "date-time"}
     },
-    "required": ["firstname", "email", "companyId", "userId"],
-    "additionalProperties": False # Prevents undocumented data leakage
+    "required": ["id", "email", "firstName", "lastName", "kycStatus"],
+    "additionalProperties": True
+}
+
+USERS_LIST_SCHEMA = {
+    "type": "object",
+    "required": ["data"],
+    "properties": {
+        "data": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "$ref": "#/definitions/user"
+            }
+        }
+    },
+    "definitions": {
+        "user": {
+            "type": "object",
+            "required": [
+                "id",
+                "email",
+                "firstName",
+                "lastName",
+                "updatedAt"
+            ],
+            "properties": {
+                "id": {"type": "string"},
+                "email": {"type": "string"},
+                "phone": {"type": "string"},
+                "firstName": {"type": "string"},
+                "lastName": {"type": "string"},
+                "kycStatus": {"type": "string"},
+                "createdAt": {"type": "string", "format": "date-time"},
+                "updatedAt": {"type": "string", "format": "date-time"}
+            },
+            "additionalProperties": False
+        }
+    }
 }

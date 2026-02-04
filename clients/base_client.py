@@ -1,21 +1,26 @@
 import requests
+import os
 import logging
 import json
 from utils.helpers import logger
 
 class BaseClient:
-    def __init__(self, base_url, timeout=10):
+    def __init__(self, base_url, api_key=None, timeout=10):
         self.base_url = base_url.rstrip('/')
         self.timeout = timeout
         self.session = requests.Session()
         
-        # Default headers
-        self.session.headers.update({"Content-Type": "application/json"})
+        # iIf an API Key is provided at init, set it in headers immediately
+        if api_key:
+             self.session.headers.update({
+                  "X-API-Key": api_key,
+                  "Content-Type": "application/json"
+                  })
 
 
     def authenticate(self, username, password):
          """
-        Authenticates against the endpoint and extracts the JWT.
+        Classic Login flow for environments that don't support API Keys
         """
          if "herokuapp" in self.base_url:
               login_url = f"{self.base_url}/auth"
@@ -33,7 +38,8 @@ class BaseClient:
               response = self.session.post(login_url, json=payload)
               if response.status_code != 200:
                    raise ValueError(f"Auth failed with status {response.status_code}: {response.text}")
-              token = response.json().get("authToken")             
+              token = response.json().get("authToken")
+     #    
          else:
               login_url = f"{self.base_url}" # for my original auth url
               payload = {"username": username, "password": password}
@@ -48,8 +54,10 @@ class BaseClient:
          # Restful-booker uses a custom 'Cookie' header instead of 'Bearer'
          if "herokuapp" in self.base_url:
               self.session.headers.update({"Cookie": f"token={token}"})
+        
          else:
               self.session.headers.update({"Authorization": f"Bearer {token}"})
+         return token
               
 
 

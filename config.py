@@ -45,6 +45,13 @@ ENVIRONMENTS = {
         "username": os.getenv("EB360_USER_NAME"),
         "password": os.getenv("EB360_PASSWORD"),
         "timeout": 15
+    },
+    "billpay": {
+        "base_url": os.getenv("BILL_BASE_URL", "https://billpay-api.gauravkhurana-practice-api.workers.dev/"),
+        "api_key": os.getenv("BILL_PAYMENT_API_KEY"),
+        "password": os.getenv("BILL_PASSWORD"),
+        "timeout": 15
+
     }
 }
 
