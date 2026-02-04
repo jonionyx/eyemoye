@@ -7,3 +7,4 @@ reports/
 logs/
 allure-results/
 tests/scenarios/eb360
+data/creditcard.csv
